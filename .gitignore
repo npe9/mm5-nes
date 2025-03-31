@@ -1,0 +1,23 @@
+# Build outputs
+*.nes
+*.o
+*.obj
+*.bin
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Debug files
+*.dbg
+*.sym
+
+# Temporary files
+*.tmp
+*.bak 
