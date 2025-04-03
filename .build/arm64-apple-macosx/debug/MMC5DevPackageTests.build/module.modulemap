@@ -1,0 +1,4 @@
+module MMC5DevPackageTests {
+    header "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5DevPackageTests.build/MMC5DevPackageTests-Swift.h"
+    requires objc
+}

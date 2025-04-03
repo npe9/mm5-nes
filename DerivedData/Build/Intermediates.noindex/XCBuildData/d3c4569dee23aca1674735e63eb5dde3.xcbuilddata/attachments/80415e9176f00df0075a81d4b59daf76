@@ -1,0 +1,4 @@
+module ROMBuilder {
+header "ROMBuilder-Swift.h"
+export *
+}

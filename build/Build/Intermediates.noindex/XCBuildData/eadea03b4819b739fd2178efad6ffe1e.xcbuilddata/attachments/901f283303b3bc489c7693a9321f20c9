@@ -1,0 +1,58 @@
+{
+  "" : {
+    "diagnostics" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/MMC5Dev-master.dia",
+    "emit-module-dependencies" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/MMC5Dev-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/MMC5Dev-master-emit-module.dia",
+    "swift-dependencies" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/MMC5Dev-master.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/MMC5Dev/CodeEditorView.swift" : {
+    "const-values" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/CodeEditorView.swiftconstvalues",
+    "dependencies" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/CodeEditorView.d",
+    "diagnostics" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/CodeEditorView.dia",
+    "index-unit-output-path" : "/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/CodeEditorView.o",
+    "llvm-bc" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/CodeEditorView.bc",
+    "object" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/CodeEditorView.o",
+    "swift-dependencies" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/CodeEditorView.swiftdeps",
+    "swiftmodule" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/CodeEditorView~partial.swiftmodule"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/MMC5Dev/ContentView.swift" : {
+    "const-values" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/MMC5Dev/MMC5DevApp.swift" : {
+    "const-values" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/MMC5DevApp.swiftconstvalues",
+    "dependencies" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/MMC5DevApp.d",
+    "diagnostics" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/MMC5DevApp.dia",
+    "index-unit-output-path" : "/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/MMC5DevApp.o",
+    "llvm-bc" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/MMC5DevApp.bc",
+    "object" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/MMC5DevApp.o",
+    "swift-dependencies" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/MMC5DevApp.swiftdeps",
+    "swiftmodule" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/MMC5DevApp~partial.swiftmodule"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/MMC5Dev/SpriteEditorView.swift" : {
+    "const-values" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/SpriteEditorView.swiftconstvalues",
+    "dependencies" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/SpriteEditorView.d",
+    "diagnostics" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/SpriteEditorView.dia",
+    "index-unit-output-path" : "/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/SpriteEditorView.o",
+    "llvm-bc" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/SpriteEditorView.bc",
+    "object" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/SpriteEditorView.o",
+    "swift-dependencies" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/SpriteEditorView.swiftdeps",
+    "swiftmodule" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/SpriteEditorView~partial.swiftmodule"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/MMC5Dev/TrackerView.swift" : {
+    "const-values" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/TrackerView.swiftconstvalues",
+    "dependencies" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/TrackerView.d",
+    "diagnostics" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/TrackerView.dia",
+    "index-unit-output-path" : "/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/TrackerView.o",
+    "llvm-bc" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/TrackerView.bc",
+    "object" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/TrackerView.o",
+    "swift-dependencies" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/TrackerView.swiftdeps",
+    "swiftmodule" : "/Users/npe/src/mm5-nes/build/Build/Intermediates.noindex/MMC5Dev.build/Debug/MMC5Dev.build/Objects-normal/arm64/TrackerView~partial.swiftmodule"
+  }
+}

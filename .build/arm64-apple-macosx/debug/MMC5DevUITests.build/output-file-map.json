@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5DevUITests.build/master.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/MMC5DevUITests/MMC5DevUITests.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5DevUITests.build/MMC5DevUITests.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5DevUITests.build/MMC5DevUITests.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5DevUITests.build/MMC5DevUITests~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5DevUITests.build/MMC5DevUITests.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5DevUITests.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5DevUITests.build/resource_bundle_accessor.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5DevUITests.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5DevUITests.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5DevUITests.build/resource_bundle_accessor.swiftdeps"
+  }
+}

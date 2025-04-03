@@ -1,0 +1,15 @@
+Target dependency graph (6 targets)
+Target 'MMC5Dev' in project 'MMC5Dev'
+➜ Explicit dependency on target 'Shared' in project 'Shared'
+➜ Explicit dependency on target 'ROMBuilder' in project 'ROMBuilder'
+Target 'ROMBuilder' in project 'ROMBuilder'
+➜ Explicit dependency on target 'ROMBuilder' in project 'ROMBuilder'
+➜ Explicit dependency on target 'ROMBuilder_ROMBuilder' in project 'ROMBuilder'
+➜ Explicit dependency on target 'Shared' in project 'Shared'
+Target 'ROMBuilder' in project 'ROMBuilder'
+➜ Explicit dependency on target 'ROMBuilder_ROMBuilder' in project 'ROMBuilder'
+➜ Explicit dependency on target 'Shared' in project 'Shared'
+Target 'ROMBuilder_ROMBuilder' in project 'ROMBuilder' (no dependencies)
+Target 'Shared' in project 'Shared'
+➜ Explicit dependency on target 'Shared' in project 'Shared'
+Target 'Shared' in project 'Shared' (no dependencies)

@@ -1,0 +1,4 @@
+module Shared {
+    header "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/Shared.build/Shared-Swift.h"
+    requires objc
+}

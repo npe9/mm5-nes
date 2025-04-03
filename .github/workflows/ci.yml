@@ -1,0 +1,67 @@
+name: CI/CD
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  release:
+    types: [created]
+
+jobs:
+  build-and-test:
+    runs-on: macos-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Select Xcode
+      run: sudo xcode-select -s /Applications/Xcode.app
+      
+    - name: Build and Test
+      run: |
+        xcodebuild test \
+          -scheme MMC5Dev \
+          -destination 'platform=macOS' \
+          -resultBundlePath TestResults.xcresult
+          
+    - name: Upload Test Results
+      uses: actions/upload-artifact@v3
+      with:
+        name: test-results
+        path: TestResults.xcresult
+        
+  create-release:
+    needs: build-and-test
+    if: github.event_name == 'release'
+    runs-on: macos-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Select Xcode
+      run: sudo xcode-select -s /Applications/Xcode.app
+      
+    - name: Build Release
+      run: |
+        xcodebuild archive \
+          -scheme MMC5Dev \
+          -configuration Release \
+          -archivePath MMC5Dev.xcarchive
+          
+    - name: Export Archive
+      run: |
+        xcodebuild -exportArchive \
+          -archivePath MMC5Dev.xcarchive \
+          -exportOptionsPlist exportOptions.plist \
+          -exportPath .
+          
+    - name: Upload Release Asset
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ github.event.release.upload_url }}
+        asset_path: ./MMC5Dev.app
+        asset_name: MMC5Dev.app
+        asset_content_type: application/octet-stream 

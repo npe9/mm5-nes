@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/npe/src/mm5-nes/Shared/.build/arm64-apple-macosx/debug/Shared.build/master.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/Shared/Sources/Shared/Shared.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/Shared/.build/arm64-apple-macosx/debug/Shared.build/Shared.d",
+    "object": "/Users/npe/src/mm5-nes/Shared/.build/arm64-apple-macosx/debug/Shared.build/Shared.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/Shared/.build/arm64-apple-macosx/debug/Shared.build/Shared~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/Shared/.build/arm64-apple-macosx/debug/Shared.build/Shared.swiftdeps"
+  }
+}

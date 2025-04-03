@@ -1,0 +1,68 @@
+{
+  "" : {
+    "diagnostics" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/ROMBuilder-master.dia",
+    "emit-module-dependencies" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/ROMBuilder-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/ROMBuilder-master-emit-module.dia",
+    "swift-dependencies" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/ROMBuilder-master.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/DerivedSources/resource_bundle_accessor.swift" : {
+    "const-values" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/resource_bundle_accessor.swiftconstvalues",
+    "dependencies" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/resource_bundle_accessor.d",
+    "diagnostics" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/resource_bundle_accessor.dia",
+    "index-unit-output-path" : "/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/resource_bundle_accessor.o",
+    "llvm-bc" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/resource_bundle_accessor.bc",
+    "object" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/resource_bundle_accessor.o",
+    "swift-dependencies" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/resource_bundle_accessor.swiftdeps",
+    "swiftmodule" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/resource_bundle_accessor~partial.swiftmodule"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/ROMBuilder/Disassembler.swift" : {
+    "const-values" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/Disassembler.swiftconstvalues",
+    "dependencies" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/Disassembler.d",
+    "diagnostics" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/Disassembler.dia",
+    "index-unit-output-path" : "/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/Disassembler.o",
+    "llvm-bc" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/Disassembler.bc",
+    "object" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/Disassembler.o",
+    "swift-dependencies" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/Disassembler.swiftdeps",
+    "swiftmodule" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/Disassembler~partial.swiftmodule"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/ROMBuilder/ROMBuilder.swift" : {
+    "const-values" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/ROMBuilder.swiftconstvalues",
+    "dependencies" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/ROMBuilder.d",
+    "diagnostics" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/ROMBuilder.dia",
+    "index-unit-output-path" : "/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/ROMBuilder.o",
+    "llvm-bc" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/ROMBuilder.bc",
+    "object" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/ROMBuilder.o",
+    "swift-dependencies" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/ROMBuilder.swiftdeps",
+    "swiftmodule" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/ROMBuilder~partial.swiftmodule"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/ROMBuilder/ROMBuilderService.swift" : {
+    "const-values" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/ROMBuilderService.swiftconstvalues",
+    "dependencies" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/ROMBuilderService.d",
+    "diagnostics" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/ROMBuilderService.dia",
+    "index-unit-output-path" : "/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/ROMBuilderService.o",
+    "llvm-bc" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/ROMBuilderService.bc",
+    "object" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/ROMBuilderService.o",
+    "swift-dependencies" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/ROMBuilderService.swiftdeps",
+    "swiftmodule" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/ROMBuilderService~partial.swiftmodule"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/ROMBuilder/Types.swift" : {
+    "const-values" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/Types.swiftconstvalues",
+    "dependencies" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/Types.d",
+    "diagnostics" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/Types.dia",
+    "index-unit-output-path" : "/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/Types.o",
+    "llvm-bc" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/Types.bc",
+    "object" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/Types.o",
+    "swift-dependencies" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/Types.swiftdeps",
+    "swiftmodule" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/Types~partial.swiftmodule"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/ROMBuilder/iNESParser.swift" : {
+    "const-values" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/iNESParser.swiftconstvalues",
+    "dependencies" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/iNESParser.d",
+    "diagnostics" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/iNESParser.dia",
+    "index-unit-output-path" : "/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/iNESParser.o",
+    "llvm-bc" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/iNESParser.bc",
+    "object" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/iNESParser.o",
+    "swift-dependencies" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/iNESParser.swiftdeps",
+    "swiftmodule" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/ROMBuilder.build/Debug/ROMBuilder.build/Objects-normal/arm64/iNESParser~partial.swiftmodule"
+  }
+}

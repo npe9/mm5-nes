@@ -1,0 +1,18 @@
+{
+  "" : {
+    "diagnostics" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/Shared.build/Debug/Shared.build/Objects-normal/arm64/Shared-master.dia",
+    "emit-module-dependencies" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/Shared.build/Debug/Shared.build/Objects-normal/arm64/Shared-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/Shared.build/Debug/Shared.build/Objects-normal/arm64/Shared-master-emit-module.dia",
+    "swift-dependencies" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/Shared.build/Debug/Shared.build/Objects-normal/arm64/Shared-master.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/Shared/Sources/Shared/Shared.swift" : {
+    "const-values" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/Shared.build/Debug/Shared.build/Objects-normal/arm64/Shared.swiftconstvalues",
+    "dependencies" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/Shared.build/Debug/Shared.build/Objects-normal/arm64/Shared.d",
+    "diagnostics" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/Shared.build/Debug/Shared.build/Objects-normal/arm64/Shared.dia",
+    "index-unit-output-path" : "/Shared.build/Debug/Shared.build/Objects-normal/arm64/Shared.o",
+    "llvm-bc" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/Shared.build/Debug/Shared.build/Objects-normal/arm64/Shared.bc",
+    "object" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/Shared.build/Debug/Shared.build/Objects-normal/arm64/Shared.o",
+    "swift-dependencies" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/Shared.build/Debug/Shared.build/Objects-normal/arm64/Shared.swiftdeps",
+    "swiftmodule" : "/Users/npe/src/mm5-nes/DerivedData/Build/Intermediates.noindex/Shared.build/Debug/Shared.build/Objects-normal/arm64/Shared~partial.swiftmodule"
+  }
+}

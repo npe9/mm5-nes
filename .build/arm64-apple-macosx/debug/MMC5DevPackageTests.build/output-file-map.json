@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5DevPackageTests.build/master.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5DevPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5DevPackageTests.build/runner.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5DevPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5DevPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5DevPackageTests.build/runner.swiftdeps"
+  }
+}

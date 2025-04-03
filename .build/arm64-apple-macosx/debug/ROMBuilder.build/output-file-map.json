@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/master.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/ROMBuilder/Sources/ROMBuilder/Disassembler.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/Disassembler.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/Disassembler.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/Disassembler~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/Disassembler.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/ROMBuilder/Sources/ROMBuilder/ROMBuilder.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/ROMBuilder.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/ROMBuilder.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/ROMBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/ROMBuilder.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/ROMBuilder/Sources/ROMBuilder/ROMBuilderService.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/ROMBuilderService.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/ROMBuilderService.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/ROMBuilderService~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/ROMBuilderService.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/ROMBuilder/Sources/ROMBuilder/Types.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/Types.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/Types.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/Types~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/Types.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/ROMBuilder/Sources/ROMBuilder/iNESParser.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/iNESParser.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/iNESParser.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/iNESParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/iNESParser.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/resource_bundle_accessor.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/resource_bundle_accessor.swiftdeps"
+  }
+}

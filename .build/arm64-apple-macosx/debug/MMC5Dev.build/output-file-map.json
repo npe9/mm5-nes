@@ -1,0 +1,131 @@
+{
+  "": {
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/master.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/MMC5Dev/AppDelegate.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/AppDelegate.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/AppDelegate.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/AppDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/AppDelegate.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/MMC5Dev/CHRCanvasView.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/CHRCanvasView.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/CHRCanvasView.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/CHRCanvasView~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/CHRCanvasView.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/MMC5Dev/Extensions/UTType+Extensions.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/UTType+Extensions.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/UTType+Extensions.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/UTType+Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/UTType+Extensions.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/MMC5Dev/Icon.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/Icon.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/Icon.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/Icon~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/Icon.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/MMC5Dev/MMC5DevApp.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/MMC5DevApp.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/MMC5DevApp.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/MMC5DevApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/MMC5DevApp.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/MMC5Dev/Models/Project.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/Project.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/Project.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/Project~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/Project.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/MMC5Dev/Models/ProjectManager.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ProjectManager.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ProjectManager.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ProjectManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ProjectManager.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/MMC5Dev/PatternEditor.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/PatternEditor.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/PatternEditor.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/PatternEditor~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/PatternEditor.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/MMC5Dev/Preferences.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/Preferences.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/Preferences.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/Preferences~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/Preferences.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/MMC5Dev/PreferencesManager.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/PreferencesManager.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/PreferencesManager.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/PreferencesManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/PreferencesManager.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/MMC5Dev/PreferencesWindow.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/PreferencesWindow.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/PreferencesWindow.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/PreferencesWindow~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/PreferencesWindow.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/MMC5Dev/ViewModels/ROMBuilderViewModel.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ROMBuilderViewModel.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ROMBuilderViewModel.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ROMBuilderViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ROMBuilderViewModel.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/MMC5Dev/ViewModels/ROMLoaderViewModel.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ROMLoaderViewModel.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ROMLoaderViewModel.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ROMLoaderViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ROMLoaderViewModel.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/MMC5Dev/Views/AnimationEventDialog.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/AnimationEventDialog.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/AnimationEventDialog.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/AnimationEventDialog~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/AnimationEventDialog.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/MMC5Dev/Views/CodeEditorView.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/CodeEditorView.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/CodeEditorView.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/CodeEditorView~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/CodeEditorView.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/MMC5Dev/Views/ContentView.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ContentView.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ContentView.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ContentView.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/MMC5Dev/Views/PianoRollView.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/PianoRollView.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/PianoRollView.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/PianoRollView~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/PianoRollView.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/MMC5Dev/Views/ROMBuilderView.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ROMBuilderView.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ROMBuilderView.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ROMBuilderView~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ROMBuilderView.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/MMC5Dev/Views/ROMLoaderView.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ROMLoaderView.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ROMLoaderView.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ROMLoaderView~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/ROMLoaderView.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/MMC5Dev/Sources/MMC5Dev/Views/SpriteEditorView.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/SpriteEditorView.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/SpriteEditorView.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/SpriteEditorView~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/SpriteEditorView.swiftdeps"
+  },
+  "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/resource_bundle_accessor.d",
+    "object": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/MMC5Dev.build/resource_bundle_accessor.swiftdeps"
+  }
+}

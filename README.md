@@ -1,44 +1,54 @@
-# MMC5 NES Platformer
+# MMC5 Dev
 
-A platformer game for the Nintendo Entertainment System (NES) utilizing the MMC5 mapper chip. This project demonstrates the advanced capabilities of the MMC5 mapper, including:
-
-- Extended RAM
-- Split-screen capabilities
-- Advanced sound features
-- Enhanced graphics modes
-- Vertical and horizontal scrolling
-
-## Requirements
-
-- cc65 (6502 C compiler)
-- ca65 (6502 assembler)
-- ld65 (6502 linker)
-- make
-
-## Building
-
-```bash
-make
-```
-
-This will generate `game.nes` in the root directory.
+A development tool for working with Nintendo Entertainment System (NES) games using the MMC5 mapper.
 
 ## Features
 
-- Smooth scrolling platformer gameplay
-- Multiple background layers
-- Advanced sound effects and music
-- Dynamic sprite management
-- Split-screen effects
-- Extended RAM for complex game states
+- ROM loading and analysis
+- Tile editing
+- Code editing
+- Project management
 
-## Project Structure
+## Requirements
 
-- `src/` - Source code files
-  - `main.s` - Main game logic
-  - `graphics.s` - Graphics and sprite handling
-  - `sound.s` - Sound and music system
-  - `mmc5.s` - MMC5 mapper configuration
-- `inc/` - Include files
-- `res/` - Resource files (graphics, music, etc.)
-- `cfg/` - Configuration files 
+- macOS 12.0 or later
+- Xcode 14.0 or later
+- Swift 5.7 or later
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/npe9/mm5-nes.git
+cd mm5-nes
+```
+
+2. Build the project:
+```bash
+swift build
+```
+
+3. Run the application:
+```bash
+swift run MMC5Dev
+```
+
+## Running Tests
+
+To run the UI tests:
+
+```bash
+./run_ui_tests.sh
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 

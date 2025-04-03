@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="512" height="512" fill="#2C3E50"/>
+    
+    <!-- MMC5 Text -->
+    <text x="256" y="256" font-family="Arial" font-size="120" fill="#ECF0F1" text-anchor="middle" dominant-baseline="middle">MMC5</text>
+    
+    <!-- Circuit Lines -->
+    <path d="M128,128 L384,128 L384,384 L128,384 Z" stroke="#3498DB" stroke-width="8" fill="none"/>
+    <path d="M256,128 L256,384" stroke="#3498DB" stroke-width="8" fill="none"/>
+    <path d="M128,256 L384,256" stroke="#3498DB" stroke-width="8" fill="none"/>
+    
+    <!-- Connection Points -->
+    <circle cx="128" cy="128" r="12" fill="#3498DB"/>
+    <circle cx="256" cy="128" r="12" fill="#3498DB"/>
+    <circle cx="384" cy="128" r="12" fill="#3498DB"/>
+    <circle cx="128" cy="256" r="12" fill="#3498DB"/>
+    <circle cx="256" cy="256" r="12" fill="#3498DB"/>
+    <circle cx="384" cy="256" r="12" fill="#3498DB"/>
+    <circle cx="128" cy="384" r="12" fill="#3498DB"/>
+    <circle cx="256" cy="384" r="12" fill="#3498DB"/>
+    <circle cx="384" cy="384" r="12" fill="#3498DB"/>
+</svg> 

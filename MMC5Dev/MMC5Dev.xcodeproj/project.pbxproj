@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0051172DE3CEC9CA71E41DDA /* ROMLoaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA087DFC4DC28DC76312B10C /* ROMLoaderViewModel.swift */; };
+		00DC10FFB22D21856CAD484F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D96A3C36BF370D09A6482 /* AppDelegate.swift */; };
+		0157DE07076856A939F5A152 /* ROMBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A12F10A524AF852FFCA3E4 /* ROMBuilderView.swift */; };
+		0804AAA4733C420A10733EE2 /* ROMBuilder in Frameworks */ = {isa = PBXBuildFile; productRef = FB6BD51CA70D31EAE6CB89BF /* ROMBuilder */; };
+		1629CAA742621C0FC4AE71B8 /* MMC5DevApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D827F0AFCB6E253F84AA777 /* MMC5DevApp.swift */; };
+		24CDB7F6B9E546CEA89CCBC3 /* MMC5DevUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192876EB4D482D2D460F7D4B /* MMC5DevUITests.swift */; };
+		2C2B9A25258D9BB3EE8F6CA0 /* ProjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3824C17C55F782AD2B9A4C6B /* ProjectManager.swift */; };
+		2DEC75C9A3BA034336A3A1A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B487EC5EADCE21E8875F8B /* Assets.xcassets */; };
+		2E36466252474460DB9285FD /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1CC7DDFEDFDEB6F0E21128 /* Icon.swift */; };
+		35FA4D6B3B99C77E737B80C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D78FEC1DA5F688E1BDA85AF /* ContentView.swift */; };
+		394F5B6E59DCC8080451F3C6 /* UTType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B10F7EBDF1D78B6E0A985C /* UTType+Extensions.swift */; };
+		495898B44E1B876B417388A8 /* PreferencesWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813C47F863E28BDF41AE1F8C /* PreferencesWindow.swift */; };
+		56249A00397518C1410C532E /* ROMBuilderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915F855E59F9C9279A7F3487 /* ROMBuilderViewModel.swift */; };
+		57FE07F8FD37BCCC6C37038C /* CHRCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AC4574398D954398EA7D2 /* CHRCanvasView.swift */; };
+		713ACD54CEC61F488253A0CA /* PianoRollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FAE1E8B1E49E99BACD249A /* PianoRollView.swift */; };
+		8DBB1FEAFE572C718C34697A /* Shared in Frameworks */ = {isa = PBXBuildFile; productRef = C32954B0F0EC7D233DC08AA2 /* Shared */; };
+		8F8FDD4CA3ED69BCA7483E57 /* SpriteEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846A49240714C927F1B41BB /* SpriteEditorView.swift */; };
+		97E640DF55B6E04291CB8337 /* ROMBuilder in Frameworks */ = {isa = PBXBuildFile; productRef = 9F89224A5AE83B825E54DBC4 /* ROMBuilder */; };
+		9D23DFA90C6D26D012ECC5AB /* Shared in Frameworks */ = {isa = PBXBuildFile; productRef = 70868E652C52CAB1AD8BA94F /* Shared */; };
+		A5A8AEA2FEAE8B9DD475F518 /* CodeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6BA36173D9EDB4495BF16 /* CodeEditorView.swift */; };
+		B39A6CCDC07B29B6333E8DD4 /* AnimationEventDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04779FF074900EFF84E16415 /* AnimationEventDialog.swift */; };
+		C571FC4471D0EF9E1B163DDF /* PreferencesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDADFB646D6A01E1ACF8823 /* PreferencesManager.swift */; };
+		CB3143FCECD530C9B9DDF068 /* ROMLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933E580CBCAB31B57FF6CEBC /* ROMLoaderView.swift */; };
+		DC95938B6902A1EDB080AC4C /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED965B625DCA4CAF54329F3F /* Project.swift */; };
+		F0E428393522D195E9E04A01 /* PatternEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9B65AE82FFAB7D7ED9BF2F /* PatternEditor.swift */; };
+		FC0EA89D172BCC11EE5CB8EE /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE48D9C1D813556A771072E7 /* Preferences.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8E04C5CAADAB36DE70A0815 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 883E9FD7FE0F94818735CD3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 351B4032E78D8934A40103FE;
+			remoteInfo = MMC5Dev;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04779FF074900EFF84E16415 /* AnimationEventDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationEventDialog.swift; sourceTree = "<group>"; };
+		07FAE1E8B1E49E99BACD249A /* PianoRollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoRollView.swift; sourceTree = "<group>"; };
+		0846A49240714C927F1B41BB /* SpriteEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteEditorView.swift; sourceTree = "<group>"; };
+		173879D3E50B4EE254C7E71B /* ROMBuilder */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ROMBuilder; path = Sources/ROMBuilder; sourceTree = SOURCE_ROOT; };
+		192876EB4D482D2D460F7D4B /* MMC5DevUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMC5DevUITests.swift; sourceTree = "<group>"; };
+		1A1CC7DDFEDFDEB6F0E21128 /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		2DDADFB646D6A01E1ACF8823 /* PreferencesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesManager.swift; sourceTree = "<group>"; };
+		3824C17C55F782AD2B9A4C6B /* ProjectManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectManager.swift; sourceTree = "<group>"; };
+		3D78FEC1DA5F688E1BDA85AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D827F0AFCB6E253F84AA777 /* MMC5DevApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMC5DevApp.swift; sourceTree = "<group>"; };
+		57B10F7EBDF1D78B6E0A985C /* UTType+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UTType+Extensions.swift"; sourceTree = "<group>"; };
+		63C335CF617700C0CC1DC813 /* MMC5DevUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMC5DevUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D6BA36173D9EDB4495BF16 /* CodeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeEditorView.swift; sourceTree = "<group>"; };
+		665ED1B1C6F49D9838FE86AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		813C47F863E28BDF41AE1F8C /* PreferencesWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesWindow.swift; sourceTree = "<group>"; };
+		846AC4574398D954398EA7D2 /* CHRCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHRCanvasView.swift; sourceTree = "<group>"; };
+		84B487EC5EADCE21E8875F8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		915F855E59F9C9279A7F3487 /* ROMBuilderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROMBuilderViewModel.swift; sourceTree = "<group>"; };
+		933E580CBCAB31B57FF6CEBC /* ROMLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROMLoaderView.swift; sourceTree = "<group>"; };
+		9BFA8BE3CDDDC6CDC19450A8 /* MMC5Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMC5Dev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA55DFC4A5374DF497FB5DF1 /* Shared */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Shared; path = ../Shared; sourceTree = SOURCE_ROOT; };
+		C01D96A3C36BF370D09A6482 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6A12F10A524AF852FFCA3E4 /* ROMBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROMBuilderView.swift; sourceTree = "<group>"; };
+		DA087DFC4DC28DC76312B10C /* ROMLoaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROMLoaderViewModel.swift; sourceTree = "<group>"; };
+		EA9B65AE82FFAB7D7ED9BF2F /* PatternEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternEditor.swift; sourceTree = "<group>"; };
+		ED965B625DCA4CAF54329F3F /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		FE48D9C1D813556A771072E7 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34E076D26202CF3114710E23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBB1FEAFE572C718C34697A /* Shared in Frameworks */,
+				0804AAA4733C420A10733EE2 /* ROMBuilder in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D472639DB47D4E62C7F332F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D23DFA90C6D26D012ECC5AB /* Shared in Frameworks */,
+				97E640DF55B6E04291CB8337 /* ROMBuilder in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30D72EF33B2D2E9BBDEBB95A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				915F855E59F9C9279A7F3487 /* ROMBuilderViewModel.swift */,
+				DA087DFC4DC28DC76312B10C /* ROMLoaderViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6EF97CFD6D14808712FFF25F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				57B10F7EBDF1D78B6E0A985C /* UTType+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		743075B533887ECA6D8FC244 = {
+			isa = PBXGroup;
+			children = (
+				BD5FD4DBB9EBCCC038BE0768 /* MMC5Dev */,
+				EF7627E9CFD83BF08749063C /* MMC5DevUITests */,
+				CD868C6BF09495CE2C01F489 /* Packages */,
+				D8C751C609B1A24588C21C26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A849A604D1F1304CDA80547F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED965B625DCA4CAF54329F3F /* Project.swift */,
+				3824C17C55F782AD2B9A4C6B /* ProjectManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BD5FD4DBB9EBCCC038BE0768 /* MMC5Dev */ = {
+			isa = PBXGroup;
+			children = (
+				C01D96A3C36BF370D09A6482 /* AppDelegate.swift */,
+				84B487EC5EADCE21E8875F8B /* Assets.xcassets */,
+				846AC4574398D954398EA7D2 /* CHRCanvasView.swift */,
+				1A1CC7DDFEDFDEB6F0E21128 /* Icon.swift */,
+				665ED1B1C6F49D9838FE86AA /* Info.plist */,
+				4D827F0AFCB6E253F84AA777 /* MMC5DevApp.swift */,
+				EA9B65AE82FFAB7D7ED9BF2F /* PatternEditor.swift */,
+				FE48D9C1D813556A771072E7 /* Preferences.swift */,
+				2DDADFB646D6A01E1ACF8823 /* PreferencesManager.swift */,
+				813C47F863E28BDF41AE1F8C /* PreferencesWindow.swift */,
+				6EF97CFD6D14808712FFF25F /* Extensions */,
+				A849A604D1F1304CDA80547F /* Models */,
+				30D72EF33B2D2E9BBDEBB95A /* ViewModels */,
+				C93A5DEE59142E4477F761E9 /* Views */,
+			);
+			name = MMC5Dev;
+			path = Sources/MMC5Dev;
+			sourceTree = "<group>";
+		};
+		C93A5DEE59142E4477F761E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04779FF074900EFF84E16415 /* AnimationEventDialog.swift */,
+				63D6BA36173D9EDB4495BF16 /* CodeEditorView.swift */,
+				3D78FEC1DA5F688E1BDA85AF /* ContentView.swift */,
+				07FAE1E8B1E49E99BACD249A /* PianoRollView.swift */,
+				D6A12F10A524AF852FFCA3E4 /* ROMBuilderView.swift */,
+				933E580CBCAB31B57FF6CEBC /* ROMLoaderView.swift */,
+				0846A49240714C927F1B41BB /* SpriteEditorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD868C6BF09495CE2C01F489 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				173879D3E50B4EE254C7E71B /* ROMBuilder */,
+				BA55DFC4A5374DF497FB5DF1 /* Shared */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		D8C751C609B1A24588C21C26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BFA8BE3CDDDC6CDC19450A8 /* MMC5Dev.app */,
+				63C335CF617700C0CC1DC813 /* MMC5DevUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7627E9CFD83BF08749063C /* MMC5DevUITests */ = {
+			isa = PBXGroup;
+			children = (
+				192876EB4D482D2D460F7D4B /* MMC5DevUITests.swift */,
+			);
+			name = MMC5DevUITests;
+			path = Tests/MMC5DevUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		351B4032E78D8934A40103FE /* MMC5Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2B6A6C902015635F599E56D /* Build configuration list for PBXNativeTarget "MMC5Dev" */;
+			buildPhases = (
+				4BE62D9C3A64D9AF99E5258D /* Sources */,
+				06448202E270A14CFECCD628 /* Resources */,
+				34E076D26202CF3114710E23 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMC5Dev;
+			packageProductDependencies = (
+				C32954B0F0EC7D233DC08AA2 /* Shared */,
+				FB6BD51CA70D31EAE6CB89BF /* ROMBuilder */,
+			);
+			productName = MMC5Dev;
+			productReference = 9BFA8BE3CDDDC6CDC19450A8 /* MMC5Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FD340194A1062A93B21F999 /* MMC5DevUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F945DE0D807672880D2106C /* Build configuration list for PBXNativeTarget "MMC5DevUITests" */;
+			buildPhases = (
+				F7C9A3AC6C368C963A2BD7BF /* Sources */,
+				6D472639DB47D4E62C7F332F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88DA35B48F41AAAA6FE03B2A /* PBXTargetDependency */,
+			);
+			name = MMC5DevUITests;
+			packageProductDependencies = (
+				70868E652C52CAB1AD8BA94F /* Shared */,
+				9F89224A5AE83B825E54DBC4 /* ROMBuilder */,
+			);
+			productName = MMC5DevUITests;
+			productReference = 63C335CF617700C0CC1DC813 /* MMC5DevUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		883E9FD7FE0F94818735CD3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					351B4032E78D8934A40103FE = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					6FD340194A1062A93B21F999 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 351B4032E78D8934A40103FE;
+					};
+				};
+			};
+			buildConfigurationList = B1F9AD77AC0A50B686AD0B6D /* Build configuration list for PBXProject "MMC5Dev" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 743075B533887ECA6D8FC244;
+			packageReferences = (
+				60838977AD72472C10C8DAE0 /* XCLocalSwiftPackageReference "../MMC5Dev/Sources/ROMBuilder" */,
+				8D903AFED7F3F839F64893C1 /* XCLocalSwiftPackageReference "../Shared" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				351B4032E78D8934A40103FE /* MMC5Dev */,
+				6FD340194A1062A93B21F999 /* MMC5DevUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06448202E270A14CFECCD628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DEC75C9A3BA034336A3A1A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BE62D9C3A64D9AF99E5258D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B39A6CCDC07B29B6333E8DD4 /* AnimationEventDialog.swift in Sources */,
+				00DC10FFB22D21856CAD484F /* AppDelegate.swift in Sources */,
+				57FE07F8FD37BCCC6C37038C /* CHRCanvasView.swift in Sources */,
+				A5A8AEA2FEAE8B9DD475F518 /* CodeEditorView.swift in Sources */,
+				35FA4D6B3B99C77E737B80C6 /* ContentView.swift in Sources */,
+				2E36466252474460DB9285FD /* Icon.swift in Sources */,
+				1629CAA742621C0FC4AE71B8 /* MMC5DevApp.swift in Sources */,
+				F0E428393522D195E9E04A01 /* PatternEditor.swift in Sources */,
+				713ACD54CEC61F488253A0CA /* PianoRollView.swift in Sources */,
+				FC0EA89D172BCC11EE5CB8EE /* Preferences.swift in Sources */,
+				C571FC4471D0EF9E1B163DDF /* PreferencesManager.swift in Sources */,
+				495898B44E1B876B417388A8 /* PreferencesWindow.swift in Sources */,
+				DC95938B6902A1EDB080AC4C /* Project.swift in Sources */,
+				2C2B9A25258D9BB3EE8F6CA0 /* ProjectManager.swift in Sources */,
+				0157DE07076856A939F5A152 /* ROMBuilderView.swift in Sources */,
+				56249A00397518C1410C532E /* ROMBuilderViewModel.swift in Sources */,
+				CB3143FCECD530C9B9DDF068 /* ROMLoaderView.swift in Sources */,
+				0051172DE3CEC9CA71E41DDA /* ROMLoaderViewModel.swift in Sources */,
+				8F8FDD4CA3ED69BCA7483E57 /* SpriteEditorView.swift in Sources */,
+				394F5B6E59DCC8080451F3C6 /* UTType+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C9A3AC6C368C963A2BD7BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CDB7F6B9E546CEA89CCBC3 /* MMC5DevUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88DA35B48F41AAAA6FE03B2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 351B4032E78D8934A40103FE /* MMC5Dev */;
+			targetProxy = C8E04C5CAADAB36DE70A0815 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F640F277324C727469304CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		53FC3A5A5CC80D2C40EDC605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = Sources/MMC5Dev/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmc5dev.app;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		A25FFF0CBA4D2ED28532533F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mmc5dev.ui-tests";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMC5Dev.app/Contents/MacOS/MMC5Dev";
+				TEST_TARGET_NAME = MMC5Dev;
+			};
+			name = Release;
+		};
+		C2E527AA90B6BAEFBE51AEF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C755B83F4763CFA467FD95D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mmc5dev.ui-tests";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMC5Dev.app/Contents/MacOS/MMC5Dev";
+				TEST_TARGET_NAME = MMC5Dev;
+			};
+			name = Debug;
+		};
+		E6AB3F96B7928088B6027EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = Sources/MMC5Dev/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmc5dev.app;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F945DE0D807672880D2106C /* Build configuration list for PBXNativeTarget "MMC5DevUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C755B83F4763CFA467FD95D7 /* Debug */,
+				A25FFF0CBA4D2ED28532533F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B1F9AD77AC0A50B686AD0B6D /* Build configuration list for PBXProject "MMC5Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E527AA90B6BAEFBE51AEF0 /* Debug */,
+				4F640F277324C727469304CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B2B6A6C902015635F599E56D /* Build configuration list for PBXNativeTarget "MMC5Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53FC3A5A5CC80D2C40EDC605 /* Debug */,
+				E6AB3F96B7928088B6027EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		60838977AD72472C10C8DAE0 /* XCLocalSwiftPackageReference "../MMC5Dev/Sources/ROMBuilder" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../MMC5Dev/Sources/ROMBuilder;
+		};
+		8D903AFED7F3F839F64893C1 /* XCLocalSwiftPackageReference "../Shared" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Shared;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		70868E652C52CAB1AD8BA94F /* Shared */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Shared;
+		};
+		9F89224A5AE83B825E54DBC4 /* ROMBuilder */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ROMBuilder;
+		};
+		C32954B0F0EC7D233DC08AA2 /* Shared */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Shared;
+		};
+		FB6BD51CA70D31EAE6CB89BF /* ROMBuilder */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ROMBuilder;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 883E9FD7FE0F94818735CD3A /* Project object */;
+}

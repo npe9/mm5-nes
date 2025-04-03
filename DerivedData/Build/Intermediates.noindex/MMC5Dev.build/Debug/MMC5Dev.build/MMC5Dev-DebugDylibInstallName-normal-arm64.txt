@@ -1,0 +1,1 @@
+@rpath/MMC5Dev.debug.dylib

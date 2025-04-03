@@ -1,0 +1,4 @@
+module ROMBuilder {
+    header "/Users/npe/src/mm5-nes/.build/arm64-apple-macosx/debug/ROMBuilder.build/ROMBuilder-Swift.h"
+    requires objc
+}
